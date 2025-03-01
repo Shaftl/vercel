@@ -1,0 +1,110 @@
+.hero {
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(37, 37, 50, 0.957) 14%,
+      rgba(35, 35, 45, 0.728)
+    ),
+    url("/public/coding2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 7rem;
+  box-shadow: var(--shadow-1);
+  position: relative;
+  margin-bottom: 8rem;
+}
+
+.hero h1 {
+  font-size: 3.6rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  margin-bottom: 1.6rem;
+}
+
+.hero p {
+  font-size: 1.6rem;
+  margin-bottom: 2.6rem;
+}
+
+.counterBox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: start;
+  gap: 10rem;
+  width: 100%;
+  position: absolute;
+  bottom: -7rem;
+  left: 0;
+}
+
+.counterBox h3 {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.counterBox span {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.servicesBox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.servicesBoxItem {
+  background: var(--bg-dark-5);
+  padding: 2.6rem 3rem;
+  box-shadow: var(--shadow-1);
+}
+
+.servicesBoxItem p {
+  font-size: 1.15rem;
+  color: var(--text-grey);
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+  margin-top: 1rem !important;
+}
+
+.servicesBoxItem button {
+  margin-bottom: 6px;
+  padding: 0;
+}
+
+.testimonialCard {
+  background: var(--bg-dark-5);
+  padding: 2.6rem 3rem;
+  box-shadow: var(--shadow-1);
+  position: relative;
+}
+
+.testimonialCard img {
+  position: absolute;
+  top: -2rem;
+  right: 4rem;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+.testimonialCard p {
+  font-size: 1.15rem;
+  color: var(--text-grey);
+  line-height: 1.7;
+  margin-bottom: 1.6rem;
+  margin-top: 1rem !important;
+}
+
+.testimonialCard h4 {
+  margin-bottom: 2rem;
+}

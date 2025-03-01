@@ -1,0 +1,41 @@
+.progress {
+  width: 100%;
+  position: relative;
+  /* margin-bottom: 1rem; */
+}
+
+.progressBox {
+  margin-bottom: 3rem;
+}
+
+.progressBox:last-child {
+  margin-bottom: 2rem;
+}
+
+.progressText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.6rem !important ;
+}
+
+.progressText span {
+  color: var(--text-grey);
+  font-size: 1.1rem;
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+}
+
+.back {
+  background: var(--bg-dark);
+  width: 100%;
+}
+
+.forward {
+  background: var(--primary-color);
+}

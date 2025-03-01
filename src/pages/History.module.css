@@ -1,0 +1,115 @@
+.history {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.history h2 {
+  margin-bottom: 2rem;
+}
+
+.historyBox {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  margin-bottom: 3rem;
+  gap: 3.8rem;
+  align-items: stretch;
+}
+
+.historyItem {
+  background: var(--bg-dark-5);
+  padding: 2.6rem 3rem;
+  box-shadow: var(--shadow-1);
+  position: relative;
+}
+
+.historyItem p {
+  font-size: 1.3rem;
+  color: var(--text-grey);
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+  margin-top: 1rem !important;
+}
+
+.date {
+  position: absolute;
+  top: 1.4rem;
+  right: 2rem;
+  background-color: var(--bg-dark);
+  padding: 0.2rem 1rem;
+  border-radius: 3rem;
+  font-size: 10px !important;
+  color: #666 !important;
+}
+
+.span {
+  font-size: 1.2rem;
+}
+
+.historyContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+
+.historyItem::after {
+  content: "";
+  position: absolute;
+  top: 1rem;
+  right: -4.9rem;
+  width: 1rem;
+  border-radius: 50%;
+  height: 1rem;
+  background: var(--bg-dark);
+  border: 3px solid var(--primary-color);
+}
+
+.historyItem::before {
+  content: "";
+  position: absolute;
+  top: 1.2rem;
+  right: -0.9rem;
+  border-style: solid;
+  border-width: 8px 5px 0 5px;
+  opacity: 0.6;
+  border-color: var(--border-grey) transparent transparent transparent;
+  transform: rotate(-90deg);
+}
+
+/* .historyitem:: { */
+/* } */
+
+.historyItem:hover::after {
+  animation: doteAnimations 1s linear infinite;
+}
+
+@keyframes doteAnimations {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.line {
+  width: 6px;
+  height: 100%;
+  background: #15151f;
+}
+
+.students {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-top: -0.8rem;
+  color: var(--text-grey);
+  font-style: italic;
+  margin-bottom: 2rem;
+}

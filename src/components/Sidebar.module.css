@@ -1,0 +1,16 @@
+.sidebar {
+  width: 29rem;
+  height: 100%;
+  background-color: var(--bg-dark-3);
+  box-shadow: var(--shadow-1);
+  transition: 0.55s ease-in-out;
+  position: relative;
+  z-index: 99999;
+}
+
+.container {
+  overflow: auto;
+  height: 100%;
+  padding: 3rem;
+  padding-top: 25.5rem;
+}

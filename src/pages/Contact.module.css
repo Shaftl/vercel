@@ -1,0 +1,98 @@
+.contact {
+  width: 100%;
+  height: 100%;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: 3rem; */
+}
+
+.contact h2 {
+  margin-bottom: 2.6rem !important;
+  font-size: 1.7rem;
+}
+
+.form {
+  width: 100%;
+  background: var(--bg-dark-5);
+  padding: 3rem;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+}
+
+.form div {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: start;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 0rem 1.6rem;
+  height: 5rem;
+  border: none;
+  outline: none;
+  background: var(--bg-dark-4);
+  color: var(--text-white);
+}
+
+.form textarea {
+  variables: --bg-dark-4;
+  height: 16rem;
+  padding: 1.6rem;
+  resize: vertical;
+}
+
+.form i {
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--bg-dark-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: var(--text-grey);
+}
+
+.messageBox {
+  align-items: stretch !important;
+  margin-bottom: 1rem;
+}
+
+.blankBox {
+  display: block !important;
+  background-color: var(--bg-dark-3);
+}
+
+.contactBox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.contactCart {
+  background: var(--bg-dark-5);
+  padding: 2.6rem 3rem;
+  box-shadow: var(--shadow-1);
+}
+
+.contactCart p {
+  font-size: 1.3rem;
+  color: var(--text-grey);
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem !important;
+}
+
+.contact span {
+  color: var(--text-white);
+}

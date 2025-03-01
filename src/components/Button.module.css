@@ -1,0 +1,32 @@
+.btn {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1.2rem 3.2rem;
+  display: inline-block;
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s;
+  position: relative;
+  font-weight: 500;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-1);
+}
+
+.link {
+  background-color: transparent;
+  color: var(--primary-color);
+  font-size: 1rem !important;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.link:hover {
+  box-shadow: none;
+  transform: translateY(0) translateX(2px);
+}

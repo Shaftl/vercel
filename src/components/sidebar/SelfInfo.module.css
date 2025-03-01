@@ -1,0 +1,11 @@
+.selfInfo p {
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.selfInfo span {
+  color: var(--text-grey);
+}

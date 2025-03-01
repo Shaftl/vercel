@@ -1,0 +1,35 @@
+.skill {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.check {
+  font-size: 1.1rem;
+  margin-right: 1rem;
+  color: #ffc107;
+  transition: all var(--transition);
+}
+
+.skill p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  transition: all var(--transition);
+  color: var(--text-grey);
+}
+
+.CVLink {
+  margin-top: 2rem;
+  border-top: 1px solid var(--border-grey);
+  padding-top: 1rem;
+}
+
+.CVLink p {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+}
+
+.CVLink .CVLink:hover i,
+.CVLink:hover p {
+  color: var(--text-white);
+}
